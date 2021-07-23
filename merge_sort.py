@@ -1,3 +1,6 @@
+''' Merge sort
+Work well with link-list
+'''
 def merge_sort(A):
     if len(A) == 1:
         return A

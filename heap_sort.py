@@ -1,3 +1,8 @@
+''' Heap sort
+1. find k largest element from array
+2. merge k sorted array of len N into 1 array 
+'''
+
 def heapify(A, l, position):
     '''
     max-heapify array A with len l
