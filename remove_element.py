@@ -14,7 +14,7 @@ class Solution(object):
             if i == N-1:
                 break
             if nums[i] == val:
-                #found vi tri tu cuoi di len de thay the cho val
+                #found index to change
                 idx = N-1
                 while idx >= 0 and nums[idx] == val:
                     idx -= 1
